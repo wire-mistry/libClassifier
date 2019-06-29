@@ -1,0 +1,13 @@
+The file prints the elf header format which is architecture independent.
+The recursive directories and behaviors on static libs are not tested yet.
+
+
+Execution:
+The make will generate the binary name LibInfoTool which is command line tool.
+$./LibInfoTool ~/<libpathDir>
+here, libpathDir is the directory in which lib files are present.
+
+Refer through the code for various file limitation or leave a comment.
+
+Note:
+This tool is tested on Ubuntu 18.04 and ran with standard libraries available on the system.
